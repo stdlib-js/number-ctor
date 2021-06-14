@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/number-ctor",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1",
   "description": "Number constructor.",
   "license": "Apache-2.0",
   "author": {
