@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+Number = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/number-ctor/tags). For example,
+
+```javascript
 Number = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@v0.1.0-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var Number = require( 'path/to/vendor/umd/number-ctor/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -121,7 +126,7 @@ var v = new Number( 5.0 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
