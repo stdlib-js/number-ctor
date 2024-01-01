@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isNumberObject = require( '@stdlib/assert-is-number' ).isObject;
 var randu = require( '@stdlib/random-base-randu' );
 var pkg = require( './../package.json' ).name;
