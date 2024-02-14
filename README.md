@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
+import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@v0.2.0-esm/index.mjs';
 ```
 
 #### Number( value )
@@ -99,7 +99,7 @@ var v = new Number( 5.0 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
+import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@v0.2.0-esm/index.mjs';
 
 var v;
 var i;
